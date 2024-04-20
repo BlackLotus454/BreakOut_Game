@@ -119,7 +119,7 @@ function collisions() {
 	//user collions
 	if (
 		currentballpos[0] > currentuserpos[0] &&
-		currentballpos[0] < currentuserpos[0] + 300 &&
+		currentballpos[0] < currentuserpos[0] + blockwidth &&
 		currentballpos[1] > currentuserpos[1] &&
 		currentballpos[1] < currentuserpos[1] + blockheight
 	) {
